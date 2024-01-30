@@ -35,9 +35,6 @@ jobs:
           shopt -s globstar
           curl -o sdk.zip ${{ inputs.url }}
           unzip sdk.zip
-          rm **/cmviot*javadoc*.jar || true
-          unzip **/*ScreenShareExtension.aar
-          mv classes.jar cmviot_v2v-rtc-ScreenShareExtension.jar
 
       - name: Copy SDK to repo
         run: |

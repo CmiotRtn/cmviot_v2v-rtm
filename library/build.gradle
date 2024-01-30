@@ -34,8 +34,8 @@ dependencies {
 
 publish {
     userOrg = 'cmviot'
-    groupId = 'io.cmviot.rtc'
+    groupId = 'io.cmviot.rtm'
     artifactId = 'cmviot'
-    publishVersion = '4.2.2.234'
+    publishVersion = '2.1.7.230'
     desc = 'cmviot'
 }
